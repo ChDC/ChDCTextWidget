@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 指定该桌面组件的基本配置信息：
+	minWidth：桌面小控件的最小宽度。
+	minWidth：桌面小控件的最小高度。
+	updatePeriodMillis：更新频率
+	initialLayout：初始时显示的布局 -->
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="122px"
+    android:minHeight="122px"
+    android:updatePeriodMillis="86400000"
+    android:initialLayout="@layout/widget_view_text"
+    android:previewImage="@mipmap/ic_launcher"
+    android:resizeMode="vertical|horizontal"
+    android:configure="com.chdc.chdctextwidget.SelectFileActivity"
+    />

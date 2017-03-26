@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chdc.chdctextwidget.ViewTextActivity" >
+
+    <item
+        android:id="@+id/action_document_structure"
+        android:icon="@drawable/toolbar_document"
+        app:showAsAction="always"
+        android:title="文档结构"/>
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/toolbar_undo"
+        app:showAsAction="always"
+        android:title="撤销"/>
+    <item
+        android:id="@+id/action_redo"
+        android:icon="@drawable/toolbar_redo"
+        app:showAsAction="always"
+        android:title="重做"/>
+    <item
+        android:id="@+id/action_done"
+        android:icon="@drawable/toolbar_edit_done"
+        app:showAsAction="always"
+        android:title=""/>
+</menu>

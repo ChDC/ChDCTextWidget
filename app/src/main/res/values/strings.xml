@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChDCTextWidget</string>
+    <string name="title_activity_view_file_content">ViewFileContentActivity</string>
+</resources>
